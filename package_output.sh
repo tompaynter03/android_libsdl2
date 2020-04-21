@@ -13,5 +13,7 @@ unzip libsdl2-release.aar -d release
 mkdir -p include/SDL2
 cp -r ../libsdl2/src/main/SDL2-2.0.12/include/* include/SDL2/.
 
+cp -r ../libsdl2/src/main/SDL2-2.0.12/android-project/app/src/main .
+
 cd ..
 tar -czvf android-sdl2.tar.gz android-sdl2
