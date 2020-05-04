@@ -1,2 +1,3 @@
 rootProject.name='Android SDL2'
 include ':libsdl2'
+include ':libsdl2_image', ':libsdl2'
